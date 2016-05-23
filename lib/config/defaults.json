@@ -5,7 +5,7 @@
     "server": "http://generator.wordnik.com/online/api/gen/servers/{language}",
     "client": "http://generator.wordnik.com/online/api/gen/clients/{language}"
   },
-  "disableCodeGen": true,
+  "disableCodeGen": false,
   "examplesFolder": "/spec-files/",
   "exampleFiles": [
     "default.yaml",
@@ -34,7 +34,7 @@
   "disableFileMenu": true,
   "headerBranding": false,
   "disableNewUserIntro": true,
-  "enableTryIt": false,
+  "enableTryIt": true,
   "brandingCssClass": "",
   "schemaUrl": "/schema/swagger.json",
   "importProxyUrl": "https://cors-it.herokuapp.com/?url="
