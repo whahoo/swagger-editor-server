@@ -5,7 +5,7 @@
     "server": "http://generator.wordnik.com/online/api/gen/servers/{language}",
     "client": "http://generator.wordnik.com/online/api/gen/clients/{language}"
   },
-  "disableCodeGen": false,
+  "disableCodeGen": true,
   "examplesFolder": "/spec-files/",
   "exampleFiles": [
     "default.yaml",
@@ -31,7 +31,7 @@
   "backendEndpoint": "/editor/spec",
   "backendHelathCheckTimeout": 5000,
   "useYamlBackend": true,
-  "disableFileMenu": true,
+  "disableFileMenu": false,
   "headerBranding": false,
   "disableNewUserIntro": true,
   "enableTryIt": true,
